@@ -4,7 +4,7 @@ import child from './child';
 function App() {
   return (
     <div>
-      <child/>
+      <child />
     </div>
   );
 }
