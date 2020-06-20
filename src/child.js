@@ -12,6 +12,24 @@ function Child() {
             <h3>INCOME <br/> $500</h3>
             <h3>EXPENSE<br/> $240</h3>
         </div>
+        <h3>History</h3>
+        <hr/>
+        <h3>Add new transaction</h3>
+        <hr/>
+
+        <form className="transaction-form">
+            <label>
+                Enter Description<br/>
+                <input type="text" />
+            </label>
+            <br/>
+            <label>
+                Enter Amount<br/>
+                <input type="number" />
+            </label>
+            <br/>
+            <input type="submit" value="add Transaction"/>
+        </form>
     </div>
   );
 }
